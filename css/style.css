@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.border-grey{
+    border: 3px solid rgb(203, 51, 51);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(114, 112, 112, 0.172);
+}
+
+.bg-red{
+    background-color: rgba(215, 23, 23, 0.891);
+    padding: 30px 0;
+    border-radius: 10px;
+}

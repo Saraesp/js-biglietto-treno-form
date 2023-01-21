@@ -10,28 +10,52 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <label class="col-form-label" for="">Nome Cognome</label>
-                <input type="text" class="form-control" id="nome_user">
+        <div class="border-grey p-4">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <label class="col-form-label" for="">Nome Cognome</label>
+                    <input type="text" class="form-control" id="nome_user">
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="" class="col-form-label">Età</label>
+                    <select name="" id="eta_user" class="form-control">
+                        <option value="">Seleziona età</option>
+                        <option value="1">Minorenne</option>
+                        <option value="2">Maggiorenne</option>
+                        <option value="3">Over 65</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="" class="col-form-label">Km da  percorrere</label>
+                    <input type="text" class="form-control" id="input_km">
+                </div>
             </div>
-            <div class="col-12 col-md-4">
-                <label for="" class="col-form-label">Età</label>
-                <select name="" id="eta_user" class="form-control">
-                    <option value="">Seleziona età</option>
-                    <option value="">Minorenne</option>
-                    <option value="">Maggiorenne</option>
-                    <option value="">Over 65</option>
-                </select>
-            </div>
-            <div class="col-12 col-md-4">
-                <label for="" class="col-form-label">Km da  percorrere</label>
-                <input type="text" class="form-control" id="input_km">
+            <div class="row mt-3 p-4">
+                <div class="col-12 text-center">
+                    <button type="button" class="btn btn-outline-secondary" id="calc_prezzo">GENERA BIGLIETTO</button>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <button type="button" class="btn btn-outline-secondary" id="calc_prezzo">GENERA BIGLIETTO</button>
+        <div class="border-grey p-4">
+            <div class="row">
+                <h3>DATI BIGLIETTO</h3>
+                <div class="row">
+                    <div class="col-12 col-md-4 bg-red">
+                        <h4>NOME PASSEGGERO</h4>
+                        <p id="inserisci_nome" class="fs-5"></p>
+                        <div class="col-12 col-md-4">
+                            <h5>OFFERTA</h5>
+                            <p id="inserisci_offerta" class="fs-5"></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4>CABINA</h4>
+                        <p id="inserisci_cabina" class="fs-5"></p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4>PREZZO</h4>
+                        <p id="inserisci_prezzo" class="fs-5"></p>
+                </div>
             </div>
         </div>
     </div>
