@@ -10,3 +10,5 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 3.1 - Calcolare prezzo del biglietto in base ai km e sapendo, ogni chilometro a 0.21 €
 3.2 - Applicazione sconto al biglietto in base all'età
 4 - Arrotondare il risultato a due cifre 
+5 - Mostrare il Risultato a schermo
+5.1 - Genera biglietto con i dati inseriti

@@ -12,16 +12,26 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">
-                <label for="">Nome e Cognome</label>
-                <input type="text">
+                <label class="col-form-label" for="">Nome Cognome</label>
+                <input type="text" class="form-control" id="nome_user">
             </div>
             <div class="col-12 col-md-4">
-                <label for="">Età</label>
-                <input type="text">
+                <label for="" class="col-form-label">Età</label>
+                <select name="" id="eta_user" class="form-control">
+                    <option value="">Seleziona età</option>
+                    <option value="">Minorenne</option>
+                    <option value="">Maggiorenne</option>
+                    <option value="">Over 65</option>
+                </select>
             </div>
             <div class="col-12 col-md-4">
-                <label for="">Km da percorrere</label>
-                <input type="text">
+                <label for="" class="col-form-label">Km da  percorrere</label>
+                <input type="text" class="form-control" id="input_km">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-outline-secondary" id="calc_prezzo">GENERA BIGLIETTO</button>
             </div>
         </div>
     </div>
